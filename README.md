@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://bitbucket.org/oyakovytskyi/fm-advice-generator-app.git)
+- Live Site URL: (https://66e6c8669ec0ff852b6c4ba4--fm-advicegeneratorfm.netlify.app/)
 
 ## My process
 
