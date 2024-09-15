@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  color: hsl(150, 100%, 66%);
+  background-color: hsl(218, 23%, 16%);
+}
+
+.advice {
+  position: relative;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 12px;
+  padding: 20px 15px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.advice-header-text {
+  font-size: 12px;
+}
+
+.advice-content-text {
+  padding: 15px;
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+}
+
+.advice-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+.advice-divider img {
+  width: 100%;
+}
+
+.advice-button {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.advice-button:hover {
+  background-color: #85ffc2;
+  box-shadow: 0 0 15px rgba(82, 255, 168, 0.7);
+}
+.advice-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  background-color: hsl(150, 100%, 66%), 0.3;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: opacity 0.3s ease;
+}
+.advice-button:hover::before {
+  opacity: 0.6;
+}
+
+.dice-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .advice {
+    width: 50%;
+  }
+  .advice-content-text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .advice {
+    width: 70%;
+  }
+  .advice-content-text {
+    font-size: 20px;
+  }
+  .advice-button {
+    width: 40px;
+    height: 40px;
+    bottom: -20px;
+  }
+}
+@media (max-width: 480px) {
+  .advice {
+    width: 90%;
+  }
+  .advice-content-text {
+    font-size: 18px;
+  }
+  .advice-divider img {
+    content: url("./images/pattern-divider-mobile.svg");
+  }
+  .advice-button {
+    width: 35px;
+    height: 35px;
+    bottom: -15px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
