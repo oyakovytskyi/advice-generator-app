@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://bitbucket.org/oyakovytskyi/fm-advice-generator-app.git)
-- Live Site URL: (https://66e6c8669ec0ff852b6c4ba4--fm-advicegeneratorfm.netlify.app/)
+- Live Site URL: (https://fm-advicegeneratorfm.netlify.app)
 
 ## My process
 
