@@ -1,63 +1,39 @@
-## Table of contents
+# 🎲 FM Advice Generator App
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+![Project Preview](./images/preview-advice.jpg)  
+*A simple advice generator app built with Next.js and the Advice API.*
 
-## Overview
+This project is a small interactive web application that generates random pieces of advice fetched from an external API. It adapts to different screen sizes and includes smooth hover effects for interactive elements.
 
-### The challenge
+---
 
-Users should be able to:
+## 🛠️ Technologies
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Generate a new piece of advice by clicking the dice icon
+| Technology | Purpose |
+|-----------|---------|
+| ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) | React framework for SSR and SPA |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Core scripting language |
+| ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) | CSS preprocessor for styling |
+| ![Styled Components](https://img.shields.io/badge/Styled_Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) | CSS-in-JS styling |
+| ![API Ninjas](https://img.shields.io/badge/API_Ninjas-0088CC?style=for-the-badge&logo=api&logoColor=white) | Source of random advice data |
 
-### Screenshot
+---
 
-![](./screenshot.png)
+## ⚡ Features
 
-### Links
+- Responsive layout adapting to all screen sizes.  
+- Hover states for interactive elements.  
+- Fetches and displays a new piece of advice with each click on the dice icon.  
 
-- Solution URL: (https://bitbucket.org/oyakovytskyi/fm-advice-generator-app.git)
-- Live Site URL: (https://fm-advicegeneratorfm.netlify.app)
+---
 
-## My process
+## 🚀 Local Setup
 
-### Built with
+```bash
+# Clone the repository
+git clone https://github.com/oyakovytskyi/advice-generator-app.git
+cd advice-generator-app
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Sass
-- API
-- Mobile-first workflow
-- [JS](https://www.javascript.com/) - JS
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-### What I learned
-
-I reminded myself about HTML and CSS basics, learned how to get API from (https://api-ninjas.com/). Work with site deploing.
-
-### Continued development
-
-Want to create project with backend and db and deploy my very first advanced site.
-
-### Useful resources
-
-- [Sass](https://sass-lang.com/) - Help to remind me some general ways of usage.
-- [API](https://api-ninjas.com/) - Platform with various queries.
-
-## Author
-
-- Frontend Mentor - [@oyakovytskyi](https://www.frontendmentor.io/profile/oyakovytskyi)
-- LinkedIn - [@Oleh Yakovytskyi](https://www.linkedin.com/in/oleh-yakovytskyi-52604a328/)
+# Open
+index.html
+```
